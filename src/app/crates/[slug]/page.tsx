@@ -35,7 +35,7 @@ export async function generateMetadata({
     openGraph: {
       title: crate.name,
       description: crate.description,
-      url: `https://fxcrates.vercel.app/crates/${slug}`,
+      images: `https://fxcrates.vercel.app/crates/${slug}/opengraph-image`,
       siteName: 'fxcrates',
       locale: 'en_US',
       type: 'website',
