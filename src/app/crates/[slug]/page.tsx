@@ -16,7 +16,6 @@ export default async function Page({
   const crate = await fetchCrate(slug);
   if (!crate) notFound();
 
-  redirect(`https://crates.io/crates/${slug}`);
   return (<></>);
 }
 
