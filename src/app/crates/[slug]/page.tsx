@@ -31,15 +31,6 @@ export async function generateMetadata({
   return {
     title: crate.name,
     description: crate.description,
-    
-    openGraph: {
-      title: crate.name,
-      description: crate.description,
-      images: `https://fxcrates.vercel.app/crates/${slug}/opengraph-image`,
-      siteName: 'fxcrates',
-      locale: 'en_US',
-      type: 'website',
-    },
 
     twitter: {
       card: 'summary_large_image',
